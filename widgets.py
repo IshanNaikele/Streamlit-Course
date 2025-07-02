@@ -32,7 +32,9 @@ st.write(name)
 num=st.number_input("Provide the no",min_value=12,max_value=88)
 st.write(num)
 
+
 uploaded_file=st.file_uploader("Please Provide your Resume")
 
 if uploaded_file:
     st.write(f"Man,Your resume looks good .")
+
